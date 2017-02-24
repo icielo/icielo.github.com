@@ -1,5 +1,5 @@
-title:            Blog Title
-description:      Describe your website here.
+title:            阳城雨林
+description:      这是林诚霖的个人博客，欢迎访问。
 
 # put your disqus here
 disqus_shortname:
@@ -18,18 +18,14 @@ url: https://icielo.github.io/
 #   To create sub categories. add a submenu item
 # See the example
 menu:
-  - title: 'Home'
+  - title: '首页'
     url: '/'
-  - title: 'Fork'
-    url: 'http://github.com/aron-bordin/neo-hpstr-jekyll-theme'
-  - title: 'Install'
-    url: 'http://github.com/aron-bordin/neo-hpstr-jekyll-theme#installation'
-  - title: 'Tags'
+  - title: '标签'
     url: '/tags'
-  - title: 'Categories'
+  - title: '分类'
     url: '/categories'
     type: 'categories'
-  - title: 'Favorites'
+  - title: '最爱'
     url: '#'
     submenu:
       - title: 'Code Highlighter'
@@ -39,11 +35,11 @@ menu:
 
 # Owner/author information
 owner:
-  name:           Your name
+  name:           林诚霖
   site:           http://aronbordin.com
   avatar:         images/avatar.jpg
   bio:            "Your bio goes here. It shouldn't be super long but a good two sentences or two should suffice."
-  email:          you@email.com
+  email:          babytiana@sina.com
   # Twitter nick for use in Twitter cards and follow button.
   twitter: aron_bordin # if no twitter in this config, the twitter follow button will be removed
   # GitHub nick for use in follow button in author block.
@@ -56,7 +52,7 @@ twitter:
 # Social networking links used in author block underneath posts. Update and remove as you like.
 social:
   - title: "github"
-    url: "https://github.com/aron-bordin"
+    url: "https://github.com/icielo"
   - title: "linkedin"
     url: "https://br.linkedin.com/in/aronbordin"
   - title: "youtube"
@@ -72,8 +68,8 @@ google_verify:
 bing_verify:
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/New_York
-locale:      en_US
+timezone:    Asia/Shanghai
+locale:      zh_CN
 future:      true
 highlighter: rouge
 markdown:    kramdown
