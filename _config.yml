@@ -36,14 +36,14 @@ menu:
 # Owner/author information
 owner:
   name:           林诚霖
-  site:           http://aronbordin.com
+  site:           http://github.com/icielo
   avatar:         images/avatar.jpg
   bio:            "Your bio goes here. It shouldn't be super long but a good two sentences or two should suffice."
   email:          babytiana@sina.com
   # Twitter nick for use in Twitter cards and follow button.
-  twitter: aron_bordin # if no twitter in this config, the twitter follow button will be removed
+  # twitter: aron_bordin # if no twitter in this config, the twitter follow button will be removed
   # GitHub nick for use in follow button in author block.
-  github: aron-bordin
+  github: icielo
 
 # Twitter account associated with the site if different from owner/author twitter account.
 # Used in Twitter cards.
