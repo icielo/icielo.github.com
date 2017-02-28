@@ -32,7 +32,14 @@ comments: false
       <h1 class="entry-title"><a href="{{ site.url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}" itemprop="url">{{ post.title }}</a></h1>
     {% endif %}
   </header>
-  <div class="entry-content">      
+  <div class="entry-content">
+    {% if post.image.feature %}
+      <div class="entry-image-index">
+        <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"><img src="{{ site.url }}/images/{{ post.image.feature }}" alt="{{ post.title }}"></a>
+        {% if post.image.credit %}<div class="image-credit">Image source: <a target="_blank" href="{{ post.image.creditlink }}">{{ post.image.credit }}</a></div><!-- /.image-credit -->{% endif %}
+
+      </div><!-- /.entry-image -->
+    {% endif %}
     {{ post.description }}&nbsp;&nbsp;&nbsp;&nbsp;<a href="{{ site.url }}{{ post.url }}" style="color:#4078c0;">继续阅读 ...</a>
   </div><!-- /.entry-content -->
 </article><!-- /.hentry -->
