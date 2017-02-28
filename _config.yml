@@ -36,7 +36,7 @@ menu:
 # Owner/author information
 owner:
   name:           林诚霖
-  site:           http://github.com/icielo
+  site:           http://www.lezic.com
   avatar:         images/avatar.jpg
   bio:            "每个今天总能看见昨天傻傻的自己，愿不再执着过去，愿不再迷茫未来。"
   email:          babytiana@sina.com
@@ -46,7 +46,7 @@ owner:
   github: icielo
   weibo:
     - name: "阳城雨林"
-    - account: "2097636277"
+      account: "2097636277"
 
 # Twitter account associated with the site if different from owner/author twitter account.
 # Used in Twitter cards.
@@ -54,12 +54,12 @@ twitter:
 
 # Social networking links used in author block underneath posts. Update and remove as you like.
 social:
-  - title: "github"
-    url: "https://github.com/icielo"
-  - title: "linkedin"
-    url: "https://br.linkedin.com/in/aronbordin"
-  - title: "youtube"
-    url: "https://www.youtube.com/channel/UCfnSek-9HPWOx5e2pH7VFgg"
+#  - title: "github"
+#    url: "https://github.com/icielo"
+#  - title: "linkedin"
+#    url: "https://br.linkedin.com/in/aronbordin"
+#  - title: "youtube"
+#    url: "https://www.youtube.com/channel/UCfnSek-9HPWOx5e2pH7VFgg"
 
 # Background image to be tiled on all pages
 background:
