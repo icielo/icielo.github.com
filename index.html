@@ -33,10 +33,7 @@ comments: false
     {% endif %}
   </header>
   <div class="entry-content">      
-      {{ post.description }}      
-      <div align="center">
-          <div markdown="0"><a href="{{ site.url }}{{ post.url }}" class="btn btn-info">继续阅读 ...</a></div>
-      </div>     
+      {{ post.description }} <div markdown="0"><a href="{{ site.url }}{{ post.url }}" class="btn btn-info">继续阅读 ...</a></div>
   </div><!-- /.entry-content -->
 </article><!-- /.hentry -->
 {% endfor %}
