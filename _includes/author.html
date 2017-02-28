@@ -13,10 +13,8 @@
       {% for network in site.social %}
 	<li><a href="{{ network.url }}" target="_blank"><i class="fa fa-{{ network.title }} fa-fw"></i></a></li>
       {% endfor %}
-      </ul>
-      {% if site.owner.weibo %}
-        <a aria-label="关注 @{{{site.owner.weibo.name}}} on Weibo" data-style="mega" href="http://weibo.com/{{{site.owner.weibo.account}}}/profile?is_all=1" class="github-button">Follow @{{{site.owner.weibo.name}}}</a>
-      {% endif %}
+      </ul>      
+      <a aria-label="关注 @阳城雨林 on Weibo" data-style="mega" href="http://weibo.com/2097636277/profile?is_all=1" class="github-button">Follow @阳城雨林</a>
       <br>
       {% if site.owner.github %}
         <a aria-label="Follow @{{site.owner.github}} on GitHub" data-style="mega" href="https://github.com/{{site.owner.github}}" class="github-button">Follow @{{site.owner.github}}</a>
