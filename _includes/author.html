@@ -14,8 +14,8 @@
           <li><a href="{{ network.url }}" target="_blank"><i class="fa fa-{{ network.title }} fa-fw"></i></a></li>
         {% endfor %}
       </ul>
-	  {% if site.owner.github %}
-        <a aria-label="关注 @{{site.owner.weibo}} on Weibo" data-style="mega" href="http://weibo.com/{{site.owner.weibo}}/profile?is_all=1" class="github-button">Follow @{{site.owner.weibo}}</a>
+	  {% if site.owner.weibo %}
+        <a aria-label="关注 @{{site.owner.weibo.name}} on Weibo" data-style="mega" href="http://weibo.com/{{site.owner.weibo.account}}/profile?is_all=1" class="github-button">Follow @{{site.owner.weibo.name}}</a>
       {% endif %}
       <br>
       {% if site.owner.github %}
