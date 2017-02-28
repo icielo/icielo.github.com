@@ -44,9 +44,7 @@ owner:
   # twitter: aron_bordin # if no twitter in this config, the twitter follow button will be removed
   # GitHub nick for use in follow button in author block.
   github: icielo
-  weibo:
-    - name: "阳城雨林"
-      account: "2097636277"
+  weibo: 2097636277
 
 # Twitter account associated with the site if different from owner/author twitter account.
 # Used in Twitter cards.
