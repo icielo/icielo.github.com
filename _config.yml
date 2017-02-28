@@ -38,15 +38,15 @@ owner:
   name:           林诚霖
   site:           http://github.com/icielo
   avatar:         images/avatar.jpg
-  bio:            "Your bio goes here. It shouldn't be super long but a good two sentences or two should suffice."
+  bio:            "每个今天总能看见昨天傻傻的自己，愿不再执着过去，愿不再迷茫未来。"
   email:          babytiana@sina.com
   # Twitter nick for use in Twitter cards and follow button.
   # twitter: aron_bordin # if no twitter in this config, the twitter follow button will be removed
   # GitHub nick for use in follow button in author block.
   github: icielo
   weibo:
-    - name: 阳城雨林
-    - account: 2097636277
+    - name: "阳城雨林"
+    - account: "2097636277"
 
 # Twitter account associated with the site if different from owner/author twitter account.
 # Used in Twitter cards.
