@@ -33,6 +33,7 @@ comments: false
     {% endif %}
   </header>
   <div class="entry-content">
+    {{ post }}
     {% if post.image.feature %}
       <div class="entry-image-index">
         <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"><img src="{{ site.url }}/images/{{ post.image.feature }}" alt="{{ post.title }}"></a>
