@@ -11,6 +11,7 @@ published: true
 
 
 1. ### MAVEN依赖包
+
 ```xml
 <!-- swagger-springmvc -->
 <dependency>
@@ -58,6 +59,7 @@ published: true
 ```
 
 2. ### 新增SwaggerConfig 配置类
+
 ```java
 /**
  * lincl
@@ -229,6 +231,7 @@ public class Student implements Serializable {
 ```
 
 6. ### 新增学生controller StudentController
+
 ```java
 /**
  * lincl
