@@ -74,7 +74,7 @@ bing_verify:
 timezone:    Asia/Shanghai
 locale:      zh_CN
 future:      true
-highlighter: rouge
+# highlighter: rouge
 markdown: kramdown
 kramdown:
   input: GFM
