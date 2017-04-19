@@ -430,4 +430,4 @@ public class StudentController extends BaseController {
 
 ### 启动tomcat，访问 http://localhost:8080/tiana-api/swagger/index.html
 
-![image](文章/spring-swagger/swagger.png)
+![image](/images/文章/spring-swagger/swagger.png)
