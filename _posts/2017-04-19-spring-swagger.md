@@ -7,10 +7,10 @@ categories: [spring]
 published: true
 ---
 
-### 在spring MVC的RESTful接口上添加swagger支持。swagger可以自动扫描对外提供的接口服务，生成API信息。通过swagger UI提供可视化界面，展示可用API接口、提交方式、请求参数及其模板等，并提供实时调用。
+## 在spring MVC的RESTful接口上添加swagger支持。swagger可以自动扫描对外提供的接口服务，生成API信息。通过swagger UI提供可视化界面，展示可用API接口、提交方式、请求参数及其模板等，并提供实时调用。
 
 
-1. MAVEN依赖包
+1. ### MAVEN依赖包
 ```xml
 <!-- swagger-springmvc -->
 <dependency>
@@ -57,7 +57,7 @@ published: true
 </dependency>
 ```
 
-2. 新增SwaggerConfig 配置类
+2. ### 新增SwaggerConfig 配置类
 ```java
 /**
  * lincl
@@ -99,14 +99,16 @@ public class SwaggerConfig {
 }
 ```
 
-3.spring bean注入以及swagger UI映射路径
+### 3.spring bean注入以及swagger UI映射路径
+
 ```xml
 <!-- swagger -->
 <bean id="springSwaggerConfig" class="com.mangofactory.swagger.configuration.SpringSwaggerConfig" />
 <mvc:resources mapping="/swagger/**" location="/WEB-INF/swagger/" />
 ```
 
-4.引入swagger-ui
+### 4.引入swagger-ui
+
 - https://github.com/swagger-api/swagger-ui/releases
 - 选择zip包打包，如 [Source code (zip)](https://github.com/swagger-api/swagger-ui/archive/v2.2.2.zip)
 - 解压缩，将dist目录内容拷贝到 /webapp/WEB-INF/swagger目录
@@ -131,7 +133,8 @@ $(function () {
 });
 ```
 
-5.新增 学生类 Student
+### 5.新增 学生类 Student
+
 ```java
 /**
  * lincl
@@ -225,7 +228,7 @@ public class Student implements Serializable {
 }
 ```
 
-6. 新增学生controller StudentController
+6. ### 新增学生controller StudentController
 ```java
 /**
  * lincl
@@ -421,7 +424,7 @@ public class StudentController extends BaseController {
 }
 ```
 
-6.启动tomcat，访问 http://localhost:8080/tiana-api/swagger/index.html
+### 6.启动tomcat，访问 http://localhost:8080/tiana-api/swagger/index.html
 
 
 
