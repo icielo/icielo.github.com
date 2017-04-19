@@ -75,7 +75,7 @@ timezone:    Asia/Shanghai
 locale:      zh_CN
 future:      true
 highlighter: rouge
-markdown:    kramdown
+markdown:    kamaru #kramdown
 sass:
   sass_dir: _sass
   style: compressed
