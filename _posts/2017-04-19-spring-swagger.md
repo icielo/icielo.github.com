@@ -9,8 +9,7 @@ published: true
 
 ## 在spring MVC的RESTful接口上添加swagger支持。swagger可以自动扫描对外提供的接口服务，生成API信息。通过swagger UI提供可视化界面，展示可用API接口、提交方式、请求参数及其模板等，并提供实时调用。
 
-
-1. ### MAVEN依赖包
+### MAVEN依赖包
 
 ```xml
 <!-- swagger-springmvc -->
@@ -58,7 +57,7 @@ published: true
 </dependency>
 ```
 
-2. ### 新增SwaggerConfig 配置类
+### 新增SwaggerConfig 配置类
 
 ```java
 /**
@@ -101,7 +100,7 @@ public class SwaggerConfig {
 }
 ```
 
-### 3.spring bean注入以及swagger UI映射路径
+### spring bean注入以及swagger UI映射路径
 
 ```xml
 <!-- swagger -->
@@ -109,7 +108,7 @@ public class SwaggerConfig {
 <mvc:resources mapping="/swagger/**" location="/WEB-INF/swagger/" />
 ```
 
-### 4.引入swagger-ui
+### 引入swagger-ui
 
 - https://github.com/swagger-api/swagger-ui/releases
 - 选择zip包打包，如 [Source code (zip)](https://github.com/swagger-api/swagger-ui/archive/v2.2.2.zip)
@@ -135,7 +134,7 @@ $(function () {
 });
 ```
 
-### 5.新增 学生类 Student
+### 新增 学生类 Student
 
 ```java
 /**
@@ -230,7 +229,7 @@ public class Student implements Serializable {
 }
 ```
 
-6. ### 新增学生controller StudentController
+### 新增学生controller StudentController
 
 ```java
 /**
@@ -427,8 +426,6 @@ public class StudentController extends BaseController {
 }
 ```
 
-### 6.启动tomcat，访问 http://localhost:8080/tiana-api/swagger/index.html
-
-
+### 启动tomcat，访问 http://localhost:8080/tiana-api/swagger/index.html
 
 ![image](http://note.youdao.com/yws/public/resource/5e6a454ab7a654d9db79e939a65bb8f7/xmlnote/9A8E81E61D90485190B7E2634E2E2804/9087)
