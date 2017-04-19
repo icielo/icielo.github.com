@@ -5,6 +5,8 @@ description: "spring quartz定时任务分布式集群"
 tags: [spring swagger]
 categories: [spring]
 published: true
+image:
+    feature: "文章/spring-swagger/swagger.png"
 ---
 
 ## 在spring MVC的RESTful接口上添加swagger支持。swagger可以自动扫描对外提供的接口服务，生成API信息。通过swagger UI提供可视化界面，展示可用API接口、提交方式、请求参数及其模板等，并提供实时调用。
@@ -428,4 +430,4 @@ public class StudentController extends BaseController {
 
 ### 启动tomcat，访问 http://localhost:8080/tiana-api/swagger/index.html
 
-![image](http://note.youdao.com/yws/public/resource/5e6a454ab7a654d9db79e939a65bb8f7/xmlnote/9A8E81E61D90485190B7E2634E2E2804/9087)
+![image](文章/spring-swagger/swagger.png)
